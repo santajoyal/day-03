@@ -1,0 +1,24 @@
+// JSON RESUME
+ var resume = [{
+   firstname :"santhoshkumar",
+   lastname :"s",
+   emailid :"santajoyal07@gmail.com",
+   contact : 6369117843,
+   bloodgroup :"o+",
+   nationality :"indian",
+   skills:"problem solving",
+   languages:"tamil and english",
+   projects :"advanced fire fighting robot with alerting system using arduino uno",
+   education :{
+    sslc :"mangalam hr.sec.school",
+    percentage : 91.8,
+    year :2016,
+    hsc :"mangalam hr.sec.school",
+    percentage : 70.58,
+    year :2018,
+    ug :"paavai engineering college",
+    percentage :7.65,
+    year :2022,
+   }
+ }];
+ console.log(JSON.stringify(resume));

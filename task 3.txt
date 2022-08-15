@@ -1,0 +1,24 @@
+//JSON iteration
+var player = [{
+    Name :"gukesh D",
+    Game :"chess",
+    Age :16,
+    Rating :2699,
+    Tittle :"grandmaster",
+}];
+console.log(JSON.stringify (player));
+
+//for in
+ for (var key in player){
+    console.log(JSON.stringify(player[key]));
+ };
+
+ //for of
+ for (var key of player){
+   document.write(JSON.stringify(player[key]));
+ };
+  
+ //for each
+ player.forEach(function (players)){
+    console.log(players);
+ };
