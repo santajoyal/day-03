@@ -1,1 +1,1 @@
-# day-03
+# Day-03 task
